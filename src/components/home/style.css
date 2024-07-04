@@ -1,0 +1,55 @@
+/* .global-container{
+  display: grid;
+} */
+
+.home-container {
+    margin-top: 20px;
+    display: flex; /* Allow side-by-side layout if needed */
+    flex-direction: column; /* Stack greeting and search bar vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+  }
+  
+  .greeting {
+    /* display: flex; */
+    /* Style the greeting text as desired */
+  }
+  
+  .search-bar {
+    margin-top: 20px; /* Optional spacing after greeting */
+    display: flex;
+    align-items: center;
+  }
+ 
+  .search-input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    flex-grow: 1; /* Allow input to fill remaining space */
+  }
+.register_btn{
+     color: aliceblue;
+
+     background-color: rgb(211, 186, 22);
+     padding: 0.5%;
+     /* margin-top: 20px; */
+     margin-left: 10px;
+     border: 1px solid transparent;
+     border-radius: 100px;
+  }
+.searchResult{
+  margin-top: 20px; /* Optional spacing after greeting */
+  margin-left: 30%;
+  display: flex;
+  align-items: center;  
+}
+#welcome_text{
+  color: rgb(42, 107, 42);
+} 
+
+
+
+
+
+  
